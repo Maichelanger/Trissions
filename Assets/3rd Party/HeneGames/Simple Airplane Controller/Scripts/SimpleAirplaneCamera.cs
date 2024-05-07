@@ -15,8 +15,11 @@ namespace HeneGames.Airplane
         [SerializeField] private float cameraDefaultFov = 60f;
         [SerializeField] private float cameraTurboFov = 40f;
 
+        private bool cameraTurbo = false;
+
         private void Start()
         {
+            if (airPlaneController != null) cameraTurbo = true;
             //Lock and hide mouse
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
@@ -30,7 +33,7 @@ namespace HeneGames.Airplane
         private void CameraFovUpdate()
         {
             //Turbo
-            if(!airPlaneController.PlaneIsDead() && airPlaneController.airplaneState == AirplaneState.Flying)
+            if(cameraTurbo && !airPlaneController.PlaneIsDead() && airPlaneController.airplaneState == AirplaneState.Flying)
             {
                 if (Input.GetKey(KeyCode.LeftShift) && !airPlaneController.TurboOverheating())
                 {
