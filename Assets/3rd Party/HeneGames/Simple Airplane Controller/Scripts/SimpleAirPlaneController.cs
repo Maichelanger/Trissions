@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
+using System.Collections;
 
 namespace HeneGames.Airplane
 {
@@ -574,7 +576,14 @@ namespace HeneGames.Airplane
             //Kill player
             planeIsDead = true;
 
-            //Here you can add your own code...
+            StartCoroutine(ReturnToMenu());
+        }
+
+        IEnumerator ReturnToMenu()
+        {
+            yield return new WaitForSeconds(2f);
+
+            SceneManager.LoadScene(0);
         }
 
         #endregion

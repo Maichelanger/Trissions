@@ -1,4 +1,6 @@
+using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MissionSceneLoader : MonoBehaviour
 {
@@ -6,6 +8,12 @@ public class MissionSceneLoader : MonoBehaviour
 
     public void LoadMission()
     {
-        Debug.Log("Mission loaded!");
+        StartCoroutine(LateLoadMission());
+    }
+
+    IEnumerator LateLoadMission()
+    {
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene(sceneIndex);
     }
 }

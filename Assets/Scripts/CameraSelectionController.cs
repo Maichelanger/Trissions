@@ -3,10 +3,18 @@ using UnityEngine.EventSystems;
 
 public class CameraSelectionController : MonoBehaviour
 {
+    [SerializeField] private Animator charAnim;
+
     private Transform highlight;
     private Transform selection;
     private RaycastHit raycastHit;
     private bool objectSelected = false;
+
+    private void Awake()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
 
     private void Update()
     {
@@ -61,6 +69,7 @@ public class CameraSelectionController : MonoBehaviour
                 MissionSceneLoader missionLoader = selection.GetComponent<MissionSceneLoader>();
                 if (missionLoader != null)
                 {
+                    charAnim.SetTrigger("Ready");
                     missionLoader.LoadMission();
                 }
             }

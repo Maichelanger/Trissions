@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Selectable 3D
+  - Vehicle
+  - FxTemporaire
+  - Collectible
   layers:
   - Default
   - TransparentFX
@@ -12,7 +15,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Collectible
   - 
   - 
   - 

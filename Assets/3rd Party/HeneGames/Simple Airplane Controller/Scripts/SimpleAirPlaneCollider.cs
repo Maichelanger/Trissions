@@ -14,7 +14,7 @@ namespace HeneGames.Airplane
         private void OnTriggerEnter(Collider other)
         {
             //Collide someting bad
-            if(other.gameObject.GetComponent<SimpleAirPlaneCollider>() == null && other.gameObject.GetComponent<LandingArea>() == null)
+            if(other.gameObject.GetComponent<SimpleAirPlaneCollider>() == null && other.gameObject.GetComponent<LandingArea>() == null && other.tag != "Collectible")
             {
                 collideSometing = true;
             }

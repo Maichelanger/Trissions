@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MenuScene.unity
     guid: e2224b88424b4f0469748624439f318e
+  - enabled: 1
+    path: Assets/Scenes/Airplane.unity
+    guid: 5ad3399b43e24c44e952db88a12491bb
+  - enabled: 1
+    path: Assets/Scenes/Car.unity
+    guid: edd1e878c4132064a98b1b27aaca9095
+  - enabled: 1
+    path: Assets/Scenes/Helicopter.unity
+    guid: ed31b5f686c724b4f9a71c532b5a5fa1
   m_configObjects: {}
