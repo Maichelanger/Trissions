@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -148,7 +148,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1696110}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.036324956, y: -0.000000106635454, z: 0.00000001589997, w: 0.9993401}
+  m_LocalRotation: {x: -0.036324956, y: -0.00000010649994, z: 0.000000023349319, w: 0.9993401}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5226,6 +5226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd9027d827af535438c7fe73dd986c6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundEffectPrefab: {fileID: 6703375708907182078, guid: 616e37b9410f7584c9bd951bb6caa91a, type: 3}
 --- !u!135 &111627027
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -10159,6 +10160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd9027d827af535438c7fe73dd986c6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundEffectPrefab: {fileID: 6703375708907182078, guid: 616e37b9410f7584c9bd951bb6caa91a, type: 3}
 --- !u!135 &115460489
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -25283,6 +25285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd9027d827af535438c7fe73dd986c6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundEffectPrefab: {fileID: 6703375708907182078, guid: 616e37b9410f7584c9bd951bb6caa91a, type: 3}
 --- !u!135 &552964852
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -30343,6 +30346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd9027d827af535438c7fe73dd986c6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundEffectPrefab: {fileID: 6703375708907182078, guid: 616e37b9410f7584c9bd951bb6caa91a, type: 3}
 --- !u!135 &585855938
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -40801,8 +40805,8 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.5361363, g: 0.30474383, b: 1, a: 1}
-  m_Intensity: 2.5778844
+  m_Color: {r: 0.76470584, g: 0.26737964, b: 1, a: 1}
+  m_Intensity: 0
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -41186,6 +41190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd9027d827af535438c7fe73dd986c6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundEffectPrefab: {fileID: 6703375708907182078, guid: 616e37b9410f7584c9bd951bb6caa91a, type: 3}
 --- !u!135 &1446363836
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -46931,6 +46936,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd9027d827af535438c7fe73dd986c6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundEffectPrefab: {fileID: 6703375708907182078, guid: 616e37b9410f7584c9bd951bb6caa91a, type: 3}
 --- !u!135 &1885585589
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -66873,8 +66879,8 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.76470584, g: 0.26737964, b: 1, a: 1}
-  m_Intensity: 0
+  m_Color: {r: 0.53605205, g: 0.3047576, b: 1, a: 1}
+  m_Intensity: 2.7423036
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -71904,6 +71910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd9027d827af535438c7fe73dd986c6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundEffectPrefab: {fileID: 6703375708907182078, guid: 616e37b9410f7584c9bd951bb6caa91a, type: 3}
 --- !u!199 &9074896257955049411
 ParticleSystemRenderer:
   serializedVersion: 6

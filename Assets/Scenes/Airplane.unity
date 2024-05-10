@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -9969,6 +9969,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd9027d827af535438c7fe73dd986c6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundEffectPrefab: {fileID: 6703375708907182078, guid: 616e37b9410f7584c9bd951bb6caa91a, type: 3}
 --- !u!135 &279954996
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -15124,6 +15125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd9027d827af535438c7fe73dd986c6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundEffectPrefab: {fileID: 6703375708907182078, guid: 616e37b9410f7584c9bd951bb6caa91a, type: 3}
 --- !u!135 &484449881
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -20113,7 +20115,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5821500120853101657, guid: bebe5fae0b9f0e94a8a2af3207b79b61, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.000000014901159
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5821500120853101657, guid: bebe5fae0b9f0e94a8a2af3207b79b61, type: 3}
       propertyPath: m_LocalRotation.y
@@ -20658,7 +20660,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1102049206
@@ -25835,6 +25837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd9027d827af535438c7fe73dd986c6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundEffectPrefab: {fileID: 6703375708907182078, guid: 616e37b9410f7584c9bd951bb6caa91a, type: 3}
 --- !u!135 &1199790667
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -30793,8 +30796,8 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.46065077, g: 0.31708342, b: 1, a: 1}
-  m_Intensity: 2.4485445
+  m_Color: {r: 0.76470584, g: 0.26737964, b: 1, a: 1}
+  m_Intensity: 0
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -30979,6 +30982,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd9027d827af535438c7fe73dd986c6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundEffectPrefab: {fileID: 6703375708907182078, guid: 616e37b9410f7584c9bd951bb6caa91a, type: 3}
 --- !u!135 &1471766178
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -35984,8 +35988,8 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.76470584, g: 0.26737964, b: 1, a: 1}
-  m_Intensity: 0
+  m_Color: {r: 0.5236007, g: 0.306793, b: 1, a: 1}
+  m_Intensity: 2.9329357
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -36085,6 +36089,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd9027d827af535438c7fe73dd986c6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundEffectPrefab: {fileID: 6703375708907182078, guid: 616e37b9410f7584c9bd951bb6caa91a, type: 3}
 --- !u!135 &1661787672
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -56056,6 +56061,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd9027d827af535438c7fe73dd986c6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundEffectPrefab: {fileID: 6703375708907182078, guid: 616e37b9410f7584c9bd951bb6caa91a, type: 3}
 --- !u!135 &2087371925
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -60982,8 +60988,8 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.76470584, g: 0.26737964, b: 1, a: 1}
-  m_Intensity: 0
+  m_Color: {r: 0.5236007, g: 0.306793, b: 1, a: 1}
+  m_Intensity: 2.9329357
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -66823,6 +66829,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd9027d827af535438c7fe73dd986c6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundEffectPrefab: {fileID: 6703375708907182078, guid: 616e37b9410f7584c9bd951bb6caa91a, type: 3}
 --- !u!1 &3259347784681452727
 GameObject:
   m_ObjectHideFlags: 0
